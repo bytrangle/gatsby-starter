@@ -10,6 +10,12 @@ featuredImage:
 
 # This is heading 1
 
+## This is heading 2
+
 Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!
 
+Going back to what we want to accomplish, it seems like writing our plugin should be straightforward. Receive the AST, look for our special HTML comment, and if found, wrap the first adjacent sibling in a new HTML node. Otherwise, do nothing. Here is a rough attempt:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4SZl1r2O_bY" frameborder="0" allowfullscreen></iframe>
+
+![sweaters](./sweaters.jpg "cool weather sweaters")
