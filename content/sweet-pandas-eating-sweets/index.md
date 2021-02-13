@@ -2,10 +2,8 @@
 title: "Sweet Pandas Eating Sweets"
 date: "2017-08-10"
 featuredImage:
-  {
-    path: "bamboo-forest.jpg",
-    title: '<span>Photo by <a href="https://unsplash.com/@ericbarbeau?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eric BARBEAU</a> on <a href="https://unsplash.com/s/photos/bamboo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>',
-  }
+  path: "bamboo-forest.jpg"
+  credit: '<span>Photo by <a href="https://unsplash.com/@ericbarbeau?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eric BARBEAU</a> on <a href="https://unsplash.com/s/photos/bamboo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>'
 ---
 
 # This is heading 1
