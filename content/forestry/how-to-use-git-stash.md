@@ -1,19 +1,16 @@
 ---
 category: web development
 tags:
-- version control
 - git
 - github
-date_published: 2021-02-16T07:38:19Z
+- version control
+date_published: 2021-02-16T10:23:40Z
 title: How to use git stash
-body: 'Even if you haven''t used `git stash`, you''ve probably encountered this scenario
-  many times:'
 date_updated: 
-summary: What to do when you are in the midst of changing in a branch, and you want
-  to check out another branch? You stash it away, of course.
-featured_image: "/uploads/glen-carrie-6kmkmxfafxa-unsplash.jpg"
-image_credit: <span>Photo by <a href="https://unsplash.com/@glencarrie?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Glen
-  Carrie</a> on <a href="https://unsplash.com/s/photos/drawer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+summary: What to do when you are not ready to commit in a branch, and you want to
+  check out another branch? You stash away your work, of course.
+featured_image: ''
+image_credit: ''
 
 ---
 When working with Git, suppose you move to a new branch and make some changes in a file that would create a conflict with the main branch.
@@ -38,3 +35,5 @@ Now, if you run \`git status\`, you should see a message saying that the working
 By default, Stash doesn't include untracked files because there won't be a conflict with other branches. A stash is like putting something into a drawer to use it later.
 
 Changes in the stash are independent of the branches that you're on. That means you can look up a stash from any branch, and this stash is available to all of the branches.
+
+Removed body.
