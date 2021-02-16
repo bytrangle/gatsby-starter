@@ -29,7 +29,7 @@ The first option is clearly out of question because we are not ready for a commi
 
 Even if you've never used `git stash`, you've probably encountered this scenario many times.
 
-Stashing may sound intimidating, but I promise you that it's not, and I believe it should be introduced in beginner Git courses. 
+Stashing may sound intimidating, but I promise you that it's not, and I believe it should be introduced in beginner Git courses.
 
 Using stash is very simple. Simply type \`git stash save\` followed by a name you want to give to the stash. The name can be anything you want, but it's good to give it a descriptive label so we can find it later.
 
