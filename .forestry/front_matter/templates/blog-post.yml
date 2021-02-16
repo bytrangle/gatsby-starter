@@ -73,5 +73,3 @@ fields:
   config:
     required: false
   label: Image credit
-pages:
-- content/forestry/how-to-use-git-stash.md
