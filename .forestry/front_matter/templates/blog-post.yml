@@ -25,7 +25,13 @@ fields:
   description: Category for the blog post. It should take one value only.
 - name: tags
   type: tag_list
-  default: []
+  default:
+  - gatsby.js
+  - javascript
+  - git
+  - github
+  - version control
+  - static site generator
   label: Tags
   description: The tag field is a list of keywords that describe the blog post. The
     list length can range from one to many values.
