@@ -38,3 +38,22 @@ fields:
     schema:
       format: markdown
   label: Body
+- name: date_published
+  type: datetime
+  label: Date published
+  description: ''
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+  default: now
+- name: date_updated
+  type: datetime
+  label: Date updated
+  description: ''
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
