@@ -35,15 +35,6 @@ fields:
   label: Tags
   description: The tag field is a list of keywords that describe the blog post. The
     list length can range from one to many values.
-- name: body
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Body
 - name: date_published
   type: datetime
   label: Date published
