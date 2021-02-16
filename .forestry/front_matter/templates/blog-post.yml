@@ -77,5 +77,10 @@ fields:
   config:
     maxSize: 64
   label: Featured image
+- name: image_credit
+  type: text
+  config:
+    required: false
+  label: Image credit
 pages:
 - content/forestry/how-to-use-git-stash.md
