@@ -2,6 +2,8 @@
 category: web development
 tags:
 - version control
+- git
+- github
 date_published: 2021-02-16T07:38:19Z
 title: How to use git stash
 body: What to do wh
@@ -13,4 +15,3 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@glencarrie?utm_sourc
   Carrie</a> on <a href="https://unsplash.com/s/photos/drawer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 ---
-jjjj
