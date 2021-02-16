@@ -38,3 +38,5 @@ Now, if you run \`git status\`, you should see a message saying that the working
 By default, Stash doesn't include untracked files because there won't be a conflict with other branches. A stash is like putting something into a drawer to use it later.
 
 Changes in the stash are independent of the branches that you're on. That means you can look up a stash from any branch, and this stash is available to all of the branches.
+
+Removed body.
