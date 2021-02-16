@@ -1,4 +1,40 @@
 ---
 label: blog post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Title of the blog post
+- name: category
+  type: select
+  default: web development
+  config:
+    required: false
+    options:
+    - programming
+    - web development
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+  description: Category for the blog post. It should take one value only.
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: The tag field is a list of keywords that describe the blog post. The
+    list length can range from one to many values.
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Body
