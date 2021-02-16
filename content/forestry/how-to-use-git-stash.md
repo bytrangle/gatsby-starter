@@ -6,7 +6,8 @@ tags:
 - github
 date_published: 2021-02-16T07:38:19Z
 title: How to use git stash
-body: What to do wh
+body: 'Even if you haven''t used `git stash`, you''ve probably encountered this scenario
+  many times:'
 date_updated: 
 summary: What to do when you are in the midst of changing in a branch, and you want
   to check out another branch? You stash it away, of course.
