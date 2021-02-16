@@ -7,7 +7,8 @@ tags:
 date_published: 2021-02-16T10:23:40Z
 title: How to use git stash
 date_updated: 
-summary: ''
+summary: What to do when you are not ready to commit in a branch, and you want to
+  check out another branch? You stash away your work, of course.
 featured_image: ''
 image_credit: ''
 
