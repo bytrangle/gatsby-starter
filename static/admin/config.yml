@@ -9,7 +9,7 @@ public_folder: /uploads
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: content/netlify-cms
     create: true
     fields:
       - { name: path, label: Path }
