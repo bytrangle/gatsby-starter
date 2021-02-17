@@ -10,10 +10,16 @@ collections:
   - name: blog
     label: Blog
     label_singular: Post
-    folder: website/content/blog
+    folder: content/netlify-cms
     preview_path: "blog/{{year}}/{{month}}/{{title}}"
     create: true
     fields:
       - { label: Title, name: title }
-      - { label: Date, name: date, widget: date }
+      - { label: "Published Date", name: "published_date", widget: date }
+      - {
+          label: "Updated Date",
+          name: "updated_date",
+          widget: date,
+          default: false,
+        }
       - { label: Body, name: body, widget: markdown }
