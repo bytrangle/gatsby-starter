@@ -15,11 +15,18 @@ collections:
     create: true
     fields:
       - { label: Title, name: title }
-      - { label: "Published Date", name: "published_date", widget: date }
+      - { label: Published Date, name: "published_date", widget: date }
       - {
-          label: "Updated Date",
+          label: Updated Date,
           name: "updated_date",
           widget: date,
           default: false,
         }
       - { label: Body, name: body, widget: markdown }
+      - {
+          label: Category,
+          name: cat,
+          widget: select,
+          options: ["web development", "programming"],
+          default: ["programming"],
+        }
