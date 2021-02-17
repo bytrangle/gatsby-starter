@@ -9,10 +9,11 @@ public_folder: /uploads
 collections:
   - name: blog
     label: Blog
-    folder: test/netlify
+    label_singular: Post
+    folder: website/content/blog
+    preview_path: "blog/{{year}}/{{month}}/{{title}}"
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { label: Title, name: title }
+      - { label: Date, name: date, widget: date }
+      - { label: Body, name: body, widget: markdown }
