@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: bytrangle/gatsby-demo
-  branch: main
+  branch: netlify-cms
 
 media_folder: uploads
 public_folder: /uploads
