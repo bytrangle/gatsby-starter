@@ -1,7 +1,6 @@
 import React from "react"
 import { css } from "@emotion/react"
 import { Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
 export default function Home({ data }) {
@@ -28,7 +27,7 @@ export default function Home({ data }) {
             >
               <h3
                 css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
+                  margin-bottom: 16px;
                 `}
               >
                 {node.frontmatter.title}{" "}

@@ -2,22 +2,20 @@ import React from "react"
 import { css } from "@emotion/react"
 import { Link } from "gatsby"
 
-import { rhythm } from "../utils/typography"
-
 export default function Layout({ children }) {
   return (
     <div
       css={css`
         margin: 0 auto;
         max-width: 700px;
-        padding: ${rhythm(2)};
-        padding-top: ${rhythm(1.5)};
+        padding: 24px;
+        padding-top: 16px;
       `}
     >
       <Link to={`/`}>
         <h3
           css={css`
-            margin-bottom: ${rhythm(2)};
+            margin-bottom: 24px;
             display: inline-block;
             font-style: normal;
           `}
