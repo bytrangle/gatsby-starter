@@ -36,7 +36,7 @@ export default function Home({ data }) {
                     color: #555;
                   `}
                 >
-                  — {node.frontmatter.date}
+                  — {node.frontmatter.date_published}
                 </span>
               </h3>
               <p>{node.excerpt}</p>
@@ -50,14 +50,14 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date_published], order: DESC }) {
       totalCount
       edges {
         node {
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date_published(formatString: "DD MMMM, YYYY")
           }
           fields {
             slug

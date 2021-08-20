@@ -1,6 +1,6 @@
 ---
 title: "Pandas and Bananas"
-date: "2017-08-21"
+date_published: "2017-08-21"
 featuredImage:
   test: ./starry-sky.jpg
   path: "starry-sky.jpg"
