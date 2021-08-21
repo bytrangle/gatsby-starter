@@ -1,5 +1,4 @@
 import React from "react"
-import { css } from "@emotion/react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 
@@ -8,10 +7,6 @@ export default function Home({ data }) {
     <Layout>
       <div>
         <h1
-          css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
-          `}
         >
           Amazing Pandas Eating Things
         </h1>
@@ -20,21 +15,11 @@ export default function Home({ data }) {
           <div key={node.id}>
             <Link
               to={node.fields.slug}
-              css={css`
-                text-decoration: none;
-                color: inherit;
-              `}
             >
               <h3
-                css={css`
-                  margin-bottom: 16px;
-                `}
               >
                 {node.frontmatter.title}{" "}
                 <span
-                  css={css`
-                    color: #555;
-                  `}
                 >
                   — {node.frontmatter.date_published}
                 </span>

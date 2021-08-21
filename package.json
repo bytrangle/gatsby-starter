@@ -14,10 +14,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@emotion/react": "^11.1.2",
     "gatsby": "^2.32.3",
     "gatsby-image": "^2.7.0",
-    "gatsby-plugin-emotion": "^5.0.0",
     "gatsby-plugin-netlify-cms": "^4.10.0",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.10.1",
