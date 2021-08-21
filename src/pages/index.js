@@ -4,31 +4,8 @@ import Layout from "../components/layout"
 
 export default function Home({ data }) {
   return (
-    <Layout>
-      <div>
-        <h1
-        >
-          Amazing Pandas Eating Things
-        </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link
-              to={node.fields.slug}
-            >
-              <h3
-              >
-                {node.frontmatter.title}{" "}
-                <span
-                >
-                  — {node.frontmatter.date_published}
-                </span>
-              </h3>
-              <p>{node.excerpt}</p>
-            </Link>
-          </div>
-        ))}
-      </div>
+    <Layout pageTitle="Home Page">
+      <p>This is up to part 2 of Gatsby's tutorial for getting started.</p>
     </Layout>
   )
 }
