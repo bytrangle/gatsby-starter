@@ -16,15 +16,19 @@ module.exports = {
     },
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 600,
-            },
-          },
+              resolve: `gatsby-remark-images`,
+              options: {
+                maxWidth: 600,
+              },
+            }
+          }
         ],
       },
     },
