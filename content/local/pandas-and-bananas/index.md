@@ -17,4 +17,6 @@ Going back to what we want to accomplish, it seems like writing our plugin shoul
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4SZl1r2O_bY" frameborder="0" allowfullscreen></iframe>
 
-![sweaters](./sweaters.jpg "cool weather sweaters")
+Sometimes images in Markdown pages just refuse to show up. I clean the cache and surprisingly it works. This seems to be a problem with Gatsby development. Unfortunately, I can't produce it because it happens quite sporadically at unexpected times.
+
+![misty-mountains](./misty-mountains.jpg "a mountain range shrouded in a layer of foggy mist")
