@@ -29,7 +29,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-netlify-cms`,
     {
       resolve: "gatsby-plugin-sass",
       options: {
